@@ -29,3 +29,33 @@ img {
   display: block;
   width: 100%;
 }
+
+.masthead {
+    background-color: grey;
+}
+
+.nav {
+    padding: 0;
+}
+
+.nav a {
+    color: blue;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+}
+
+@media only screen and (min-width:25em) {
+
+    .nav {
+        text-align:center;
+    }
+
+    .nav li {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width:40em) {
