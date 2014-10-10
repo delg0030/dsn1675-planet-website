@@ -36,7 +36,22 @@ img {
 }
 
 .top {
+    background-color: #efefef;
+    text-align: center;
 }
+
+.middle {
+    background: #e2e2e2;
+}
+
+.bottom {
+    background-color: #efefef;
+}
+
+.footer {
+    background-color: #ccc;
+}
+
 
 .title {
   margin: 0;
@@ -79,6 +94,9 @@ img {
     display: inline-block;
   }
 
+    .h2 {
+    padding-top: 2em;
+    }
 }
 
 @media only screen and (min-width: 40em) {
@@ -90,5 +108,9 @@ img {
   .nav {
     float: left;
   }
+
+.h2 {
+    padding-top: 2em;
+    }
 
 }
