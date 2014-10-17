@@ -16,6 +16,30 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+
+}
+    
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -52,13 +76,6 @@ img {
     background-color: #ccc;
 }
 
-
-.title {
-  margin: 0;
-
-  text-align: center;
-}
-
 .nav {
   padding: 0;
 }
@@ -84,7 +101,12 @@ img {
   color: #fff;
 }
 
-@media only screen and (min-width: 20em) {
+
+@media only screen and (min-width: 25em) {
+    
+    .consortium {
+        text-align: center
+    }
 
   .nav {
     text-align: center;
@@ -99,18 +121,65 @@ img {
     }
 }
 
-@media only screen and (min-width: 40em) {
+.marsmoon {
+    background-color: #efefef;
+}
+
+.title {
+  margin: 0;
+padding: 0;
+    text-align:center;
+}
+    
+
+@media only screen and (min-width: 38em) {
+    
 
   .title {
     float: left;
-  }
+}
+
+    .consortium {
+        text-align: left;
+    }
 
   .nav {
-    float: left;
+    text-align: right;
   }
 
 .h2 {
     padding-top: 2em;
+}
+
+}
+    
+@media only screen and (min-width: 60em) {
+    
+   .title {
+  margin: 0;
+    text-align:left;
+}
+    
+    .consortium {
+        text-align: left;
+    }
+    
+    .nav {
+        text-align: right;
+    }
+    
+.dt {
+  clear: left;
+  float: left;
+  width: 8em;
+}
+
+.dd {
+  float: left;
+}
+    
+.moontext {
+        padding-left: 1em;
     }
 
 }
