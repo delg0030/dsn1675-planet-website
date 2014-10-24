@@ -9,14 +9,19 @@
     <link href="css/typography.css" rel="stylesheet">
 </head>
 <body>
+    
+<ul class="skip-links">
+<li> <a href="#main">Jump to main content</a></li>
+<li> <a href="#navigation">Jump to navigation</a></li>
+</ul>
 
-<header class="masthead">
+<header role="banner" class="masthead">
     <div class="grid">
         <div class="unit unit-xs-3 unit-s-1 unit-m-1 unit-l-1-2">
         <h1 class="pad-double push-half title tera">Mars</h1>
     </div>
         <div class="unit unit-xs-3 unit-s-1 unit-m-1-2 unit-l-1-2">   
-        <nav  class="tera">
+        <nav id="navigation" role="navigation" class="tera">
                 <ul class="nav">
                     <li><a href="index.html">Planet</a></li>
                     <li><a href="moons.html">Moons</a></li>
@@ -26,7 +31,8 @@
         </div> 
     </div>
 </header>
-    
+   
+<main id="main" role="main">    
 <div class="top">
     <div> <p class="mega push-none island-1-2">Mars, the forth planet from the Sun.</p>         </div>
 </div>
@@ -106,9 +112,10 @@
             </dl>
     </div>
 </div>
+</main>
     
 <div class="grid footer island-1-2">
-    <div class="consortium unit unit-xs-3 unit-s-1 unit-m-1-2 unit-l-1-2">
+    <div role ="contentinfo" class="consortium unit unit-xs-3 unit-s-1 unit-m-1-2 unit-l-1-2">
         <p> © Mars Planetary Consortium</p>
     </div>
         
