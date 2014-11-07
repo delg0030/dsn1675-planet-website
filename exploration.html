@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Mars Planet</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans|Merriweather:400italic,400,700" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/typography.css" rel="stylesheet">
 </head>
@@ -17,15 +18,15 @@
 
 <header role="banner" class="masthead">
     <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <h1 class="pad-double push-half title tera">Mars</h1>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
+            <h1 class="island-1-2 push-half title tera brand-family">Mars</h1>
         </div>
-        <div class="unit unit-xs-3 unit-s-1 unit-m-1-2 unit-l-1-2">   
-            <nav id="navigation" role="navigation" class="tera">
-                <ul class="nav">
-                    <li><a href="index.html">Planet</a></li>
-                    <li><a href="moons.html">Moons</a></li>
-                    <li><a href="#">Exploration</a></li>
+    <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">   
+        <nav id="navigation" role="navigation" class="tera">
+                <ul class="nav brand-family">
+                    <li><a class="island-1-2" href="index.html">Planet</a></li>
+                    <li><a  class="island-1-2" href="moons.html">Moons</a></li>
+                    <li><a class="island-1-2 nav-current" href="exploration.html">Exploration</a></li>
                 </ul>
             </nav>
         </div> 
@@ -34,32 +35,32 @@
 
 <main id="main" role="main">
 <div class="top">
-    <div> <p class="yotta push-double island-1-2">      <strong>Exploration</strong></p>
+    <div> <h1 class="yotta push-double island-1-2">  <strong>Exploration</strong></h1>
     </div>
 </div>
 </main>
     
-<div class="grey">
+<div>
 
 <div class="join">
-    <h3>Join Mars's Exploration Team!</h3>
+    <h3 class="colour" >Join Mars's Exploration Team!</h3>
     <p>Are you interested in exploring Mars with a team of talented people? <em>Sign Up Below!</em></p>
 </div>
     
 <form action="thanks.html" method="post" class="form">
         
     <div>
-        <lable for="name">Name</lable>
+        <lable for="name" class="colour" >Name</lable>
         <input class="field" id="name">
     </div>
     
     <div>
-        <label for="email">Your E-mail</label>
+        <label for="email" class="colour" >Your E-mail</label>
         <input class="field" type="email" id="email" placeholder="your@email.com">
     </div>
     
     <div>
-        <label for="subject">Age</label>
+        <label for="subject" class="colour" >Age</label>
             <select class="field" id="suject">
                 <option>10-15</option>
                 <option>16-20</option>
@@ -68,7 +69,7 @@
             </select>    
     </div>
     
-    <legend class="small"><em>Your Level of Awesomeness:</em></legend>
+    <legend class="small colour"><em>Your Level of Awesomeness:</em></legend>
     
     <fieldset class=" unit unit-x-s-1-3 unit-s-1 unit-m-1 unit-l-1">
     <span class="radio">
@@ -88,7 +89,7 @@
     </fieldset>
     
     <div>
-        <label for="message">Explain why you deserve to go:</label>
+        <label for="message" class="colour" >Explain why you deserve to go:</label>
         <textarea class="field" id="message"></textarea>
     </div>
    
@@ -105,11 +106,11 @@
     </div>
         
     <div class="unit unit-xs-3 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <nav  class="milli nav">
-                <ul class="nav">
-                    <li><a href="index.html">Planet</a></li>
-                    <li><a href="moons.html">Moons</a></li>
-                    <li><a href="#">Exploration</a></li>
+            <nav  class="milli">
+                <ul class="nav nav-bottom">
+                    <li><a href="index.html" class="island-1-2">Planet</a></li>
+                    <li><a href="moons.html" class="island-1-2">Moons</a></li>
+                    <li><a href="#" class="island-1-2">Exploration</a></li>
                 </ul>
             </nav>
         </div>

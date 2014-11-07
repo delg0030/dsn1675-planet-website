@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -49,6 +48,14 @@ body {
   padding: 0;
 }
 
+.title {
+    color: #660000;
+}
+
+.colour {
+    color: #660000;
+}
+
 a:focus {
     outline: 3px solid #000;
 }
@@ -81,24 +88,24 @@ img {
 
 .masthead {
   overflow: hidden;
-    background-color: #ccc;
+    background-color: #FF9900;
 }
 
 .top {
-    background-color: #efefef;
+    background-color: #FFFF99;
     text-align: center;
 }
 
 .middle {
-    background: #e2e2e2;
+    background: #FFFFCC;
 }
 
 .bottom {
-    background-color: #efefef;
+    background-color: #FFFFCC;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color: #FF9900;
 }
 
 .nav {
@@ -114,16 +121,19 @@ img {
 .nav a:visited {
   display: block;
 
-  color: #0074D9;
+  color: #660000;
   text-decoration: none;
 }
 
 .nav a:hover,
 .nav a:focus,
-.nav a:active {
-  background-color: #0074D9;
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #FFFFFF;
 
-  color: #fff;
+  color: #660000;
 }
 
 .grey {
@@ -176,7 +186,7 @@ button {
     font-size: 1.125rem;
     padding: 0.5em 0.75em;
     background-color: #fff;
-    border: 3px solid #3c3;
+    border: 3px solid #660000;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -193,6 +203,15 @@ fieldset {
     text-align:center;
 }
 
+.marsmoon {
+    background-color: #FFFFCC;
+}
+
+.title {
+  margin: 0;
+padding: 0;
+    text-align:center;
+}
 
 @media only screen and (min-width: 25em) {
     
@@ -213,16 +232,7 @@ fieldset {
     }
 }
 
-.marsmoon {
-    background-color: #efefef;
-}
-
-.title {
-  margin: 0;
-padding: 0;
-    text-align:center;
-}
-    
+ 
 
 @media only screen and (min-width: 38em) {
     
@@ -234,8 +244,12 @@ padding: 0;
     .consortium {
         text-align: left;
     }
+    
+.nav {
+        text-align: left;
+    }
 
-  .nav {
+  .nav-bottom {
     text-align: right;
   }
 
@@ -256,7 +270,7 @@ padding: 0;
         text-align: left;
     }
     
-    .nav {
+    .nav-bottom {
         text-align: right;
     }
     
@@ -273,10 +287,6 @@ padding: 0;
 .moontext {
         padding-left: 1em;
     }
-
-
-
-
 }
 
 
